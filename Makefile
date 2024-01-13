@@ -11,7 +11,6 @@ SRC				=	main.c \
 					op_r_rotate.c \
 					op_rotate.c \
 					op_swap.c \
-					print.c \
 					set.c \
 					sort_many.c \
 					sort_seperate.c \

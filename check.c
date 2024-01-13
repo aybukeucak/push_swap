@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   check.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aybukeucak <aybukeucak@student.42.fr>      +#+  +:+       +#+        */
+/*   By: ayucak <ayucak@student.42kocaeli.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/13 17:52:35 by aybukeucak        #+#    #+#             */
-/*   Updated: 2024/01/13 17:52:36 by aybukeucak       ###   ########.fr       */
+/*   Updated: 2024/01/13 18:09:36 by ayucak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,8 @@ void	check_number(char *arg)
 	i = 0;
 	while (ft_isspace(arg[i]))
 		i++;
+	if (arg[i] == '-' && !arg[i + 1])
+		print_error("Error\n", 1);
 	if (arg[i] == '-')
 		i++;
 	i--;
