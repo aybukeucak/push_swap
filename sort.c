@@ -6,13 +6,12 @@
 /*   By: ayucak <ayucak@student.42kocaeli.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/13 17:55:20 by ayucak            #+#    #+#             */
-/*   Updated: 2024/01/13 17:55:21 by ayucak           ###   ########.fr       */
+/*   Updated: 2024/01/13 18:19:59 by ayucak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 #include <stdlib.h>
-#include <stdbool.h>
 
 void	sort_three(t_base *s)
 {
@@ -34,13 +33,6 @@ void	sort_three(t_base *s)
 		rra(s, true);
 }
 
-/**
- * @brief 
- * 
- * @fn check_sorted(): Sayilar sirali degilse devam edecek
- *  ki siralasin.
- * @param base 
- */
 void	sort_stack(t_base *base)
 {
 	check_sorted(base);

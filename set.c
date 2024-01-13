@@ -6,23 +6,14 @@
 /*   By: ayucak <ayucak@student.42kocaeli.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/13 17:54:16 by ayucak            #+#    #+#             */
-/*   Updated: 2024/01/13 17:54:18 by ayucak           ###   ########.fr       */
+/*   Updated: 2024/01/13 18:23:23 by ayucak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 #include <stdlib.h>
+#include "libft/libft.h"
 
-/**
- * @brief Set the quotation args object
- * 
- * 	  av[0]             av[1]
- *  ./push_swap '2 51 56 3 1 9 -15 2 -2523'
- * 
- * @param base 
- * @param ac 
- * @param av 
- */
 void	set_quotation_args(t_base *base, int ac, char **av)
 {
 	char	**args;

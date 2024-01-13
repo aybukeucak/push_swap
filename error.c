@@ -6,12 +6,13 @@
 /*   By: ayucak <ayucak@student.42kocaeli.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/13 17:55:06 by ayucak            #+#    #+#             */
-/*   Updated: 2024/01/13 17:55:07 by ayucak           ###   ########.fr       */
+/*   Updated: 2024/01/13 18:22:48 by ayucak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 #include <stdlib.h>
+#include "libft/libft.h"
 
 void	print_error(char *str, int err_num)
 {

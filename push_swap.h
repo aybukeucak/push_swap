@@ -6,14 +6,13 @@
 /*   By: ayucak <ayucak@student.42kocaeli.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/13 17:54:24 by ayucak            #+#    #+#             */
-/*   Updated: 2024/01/13 17:54:25 by ayucak           ###   ########.fr       */
+/*   Updated: 2024/01/13 18:19:18 by ayucak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
 
-# include "libft/libft.h"
 # include <stdbool.h>
 
 typedef struct s_base

@@ -6,12 +6,13 @@
 /*   By: ayucak <ayucak@student.42kocaeli.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/13 17:52:35 by aybukeucak        #+#    #+#             */
-/*   Updated: 2024/01/13 18:09:36 by ayucak           ###   ########.fr       */
+/*   Updated: 2024/01/13 18:22:40 by ayucak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 #include <stdlib.h>
+#include "libft/libft.h"
 
 void	check_repeating(t_base *base)
 {

@@ -6,12 +6,12 @@
 /*   By: ayucak <ayucak@student.42kocaeli.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/13 17:54:35 by ayucak            #+#    #+#             */
-/*   Updated: 2024/01/13 17:54:36 by ayucak           ###   ########.fr       */
+/*   Updated: 2024/01/13 18:26:21 by ayucak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
-#include <stdbool.h>
+#include "libft/libft.h"
 
 void	sa(t_base *base, bool print)
 {

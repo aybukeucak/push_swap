@@ -6,12 +6,12 @@
 /*   By: ayucak <ayucak@student.42kocaeli.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/13 17:54:52 by ayucak            #+#    #+#             */
-/*   Updated: 2024/01/13 17:54:53 by ayucak           ###   ########.fr       */
+/*   Updated: 2024/01/13 18:26:12 by ayucak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
-#include <stdbool.h>
+#include <unistd.h>
 
 void	pa(t_base *base, bool print)
 {

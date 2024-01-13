@@ -6,22 +6,13 @@
 /*   By: ayucak <ayucak@student.42kocaeli.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/13 17:55:21 by ayucak            #+#    #+#             */
-/*   Updated: 2024/01/13 17:55:22 by ayucak           ###   ########.fr       */
+/*   Updated: 2024/01/13 18:19:40 by ayucak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 #include <limits.h>
-#include <stdbool.h>
 
-/**
- * @brief Bu atoi'nin aynisi sadece sayimiz INT_MAX
- *  ve INT_MIN araliginda mi kontrolu sagliyor.
- * 
- * @param argv 
- * @return true 
- * @return false 
- */
 bool	if_args_mintm(const char *argv)
 {
 	long	ret_value;
