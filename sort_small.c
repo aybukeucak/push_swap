@@ -6,7 +6,7 @@
 /*   By: ayucak <ayucak@student.42kocaeli.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/13 17:55:17 by ayucak            #+#    #+#             */
-/*   Updated: 2024/01/13 17:55:18 by ayucak           ###   ########.fr       */
+/*   Updated: 2024/01/13 19:54:06 by ayucak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,9 +38,9 @@ void	sort_small_a2(t_base *s, int len)
 	while (len != 3 || !(s->a[0] < s->a[1]
 			&& s->a[1] < s->a[2]))
 	{
-		if (len == 3 && s->a[0] > s->a[1] && s->a[2])
+		if (len == 3 && s->a[0] > s->a[1])
 		{
-			if ((s->a[0] > s->a[1]) && (s->b[0] < s->b[1]))
+			if (s->b[0] < s->b[1])
 				ss(s, 1);
 			else
 				sa(s, 1);

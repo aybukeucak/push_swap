@@ -6,7 +6,7 @@
 /*   By: ayucak <ayucak@student.42kocaeli.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/13 17:54:57 by ayucak            #+#    #+#             */
-/*   Updated: 2024/01/13 18:18:36 by ayucak           ###   ########.fr       */
+/*   Updated: 2024/01/13 19:25:40 by ayucak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,7 @@ int	main(int ac, char **av)
 	else
 		set_args(&base, ac, av);
 	check_repeating(&base);
+	check_sorted(&base);
 	sort_stack(&base);
 	return (0);
 }

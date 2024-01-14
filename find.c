@@ -6,7 +6,7 @@
 /*   By: ayucak <ayucak@student.42kocaeli.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/13 17:55:02 by ayucak            #+#    #+#             */
-/*   Updated: 2024/01/13 17:55:03 by ayucak           ###   ########.fr       */
+/*   Updated: 2024/01/14 10:27:25 by ayucak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,30 +51,4 @@ void	find_middle(int *pivot, int *stack, int size)
 	sort_bubble(tmp, size);
 	*pivot = tmp[size / 2];
 	free(tmp);
-}
-
-int	find_small(int *stack, int size)
-{
-	int	i;
-	int	small;
-
-	small = 0;
-	i = -1;
-	while (++i < size)
-		if (stack[i] < small)
-			small = stack[i];
-	return (small);
-}
-
-int	find_large(int *stack, int size)
-{
-	int	i;
-	int	large;
-
-	large = 0;
-	i = -1;
-	while (++i < size)
-		if (stack[i] > large)
-			large = stack[i];
-	return (large);
 }

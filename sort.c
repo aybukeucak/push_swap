@@ -6,7 +6,7 @@
 /*   By: ayucak <ayucak@student.42kocaeli.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/13 17:55:20 by ayucak            #+#    #+#             */
-/*   Updated: 2024/01/13 18:19:59 by ayucak           ###   ########.fr       */
+/*   Updated: 2024/01/13 19:25:31 by ayucak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,6 @@ void	sort_three(t_base *s)
 
 void	sort_stack(t_base *base)
 {
-	check_sorted(base);
 	if (base->size_a == 2)
 		sa(base, true);
 	else if (base->size_a == 3)

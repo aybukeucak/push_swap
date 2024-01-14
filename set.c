@@ -6,7 +6,7 @@
 /*   By: ayucak <ayucak@student.42kocaeli.com.tr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/13 17:54:16 by ayucak            #+#    #+#             */
-/*   Updated: 2024/01/13 18:23:23 by ayucak           ###   ########.fr       */
+/*   Updated: 2024/01/13 19:23:59 by ayucak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ void	set_quotation_args(t_base *base, int ac, char **av)
 	while (args[ac])
 		ac++;
 	base->a = (int *)malloc(sizeof(int) * ac);
-	if (!base->a)
+	if (base->a == NULL)
 		print_error("Error\n", 1);
 	i = -1;
 	while (args[++i])
@@ -40,25 +40,15 @@ void	set_quotation_args(t_base *base, int ac, char **av)
 	base->size_a = i;
 }
 
-/**
- * @brief Set the args object
- * 
- * 	  av[0]   av[1] av[2] av[3] av[4] av[5]
- *  ./push_swap 2 51 56 3 1 9 -15 2 -2523
- * 
- * @param base 
- * @param ac 
- * @param av 
- */
 void	set_args(t_base *base, int ac, char **av)
 {
 	int	i;
 
-	i = 0;
 	base->size_a = ac - 1;
 	base->a = (int *)malloc(sizeof(int) * base->size_a);
-	if (!base->a)
+	if (base->a == NULL)
 		print_error("Error\n", 1);
+	i = 0;
 	while (++i < ac)
 	{
 		check_number(av[i]);
